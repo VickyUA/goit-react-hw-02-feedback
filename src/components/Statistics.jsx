@@ -1,7 +1,8 @@
+import css from 'components/Feedback.module.css';
+
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
-    <div>
-      <h2>Statistics</h2>
+    <div className={css.counts}>
       <p>Good: {good}</p>
       <p>Neutral: {neutral}</p>
       <p>Bad: {bad}</p>
