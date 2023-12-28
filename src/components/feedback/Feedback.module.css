@@ -26,26 +26,7 @@ ul {
   padding: 5px;
   border-radius: 15px;
 }
-
 .title {
   font-size: 22px;
   margin-bottom: 10px;
-}
-
-.counts {
-  font-size: 18px;
-}
-
-.notification {
-  font-size: 20px;
-}
-
-.statistics {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(14, 197, 197);
-  border-radius: 15px;
 }

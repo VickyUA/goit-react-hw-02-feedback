@@ -1,4 +1,4 @@
-import css from 'components/Feedback.module.css';
+import css from 'components/statistics/statistics.module.css';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
